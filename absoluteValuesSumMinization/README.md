@@ -8,7 +8,7 @@ If there are several possible answers, output the smallest one.
 
 *What this really means:*
 Find the median value of the array.
-The median value is defined as the middle value if the length of the array is odd and the avg (mean) of the middle two values if the length of the array is even.
+The median value is defined as the middle value if the length of the array is odd and the avg (mean) of the middle two values if the length of the array is even.  
 The example merely uses the middle value of the array with even length OR the left of middle value if it is an odd length.
 
 **Example**
