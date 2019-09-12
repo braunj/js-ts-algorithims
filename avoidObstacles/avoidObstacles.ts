@@ -1,10 +1,10 @@
-function avoidObstacles(ia: number[]): number {
-   let max: number = Math.max(...ia);
+function avoidObstacles(inputArray: number[]): number {
+   let max: number = Math.max(...inputArray);
    let magicNum: number = 2;
 
    for (let jumpTry: number = 1; jumpTry <= max; jumpTry++) {
       for (let jump: number = 1; jump * jumpTry <= max * magicNum; jump++) {
-         if (ia.includes(jump * jumpTry)) {
+         if (inputArray.includes(jump * jumpTry)) {
             break;
          } else {
             if (jump * jumpTry >= max) {
