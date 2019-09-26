@@ -18,7 +18,7 @@ Each year the amount of money on your account increases by 20%. It means that th
 
 Thus, it will take 3 years for your balance to pass the threshold, which is the answer.
 
-**Input/Output**
+**Input/Output** 
 
 - **[time limit] 4000ms (js)**
 - **[input] integer deposit**
